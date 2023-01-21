@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+$textDur: 1050ms;
+$waveDur: 2100ms;
+
 #hero {
   min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: #333333;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: black;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -66,3 +70,5 @@
     }
   }
 }
+
+
