@@ -20,6 +20,7 @@
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="#work">Work</a>
+      <a href="#case-study">Case study</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -28,11 +29,15 @@
   <main id="top">
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow">Full stack software engineer</p>
-        <h1>Building polished products with practical engineering underneath.</h1>
+        <p class="eyebrow">Full stack product engineer</p>
+        <h1>I build practical web tools for teams that need to move from idea to shipped product.</h1>
         <p class="hero-lede">
-          I am Ayomide Elijah Oduba, a software engineer focused on shipping clear, useful web products across frontend, backend, automation, and AI-assisted workflows.
+          I am Ayomide Elijah Oduba. I work across Next.js, React, Python, and automation to turn messy workflows into usable internal tools, nonprofit platforms, and AI-assisted products.
         </p>
+        <div class="status-pill" aria-label="Current availability">
+          <span></span>
+          Open to full-stack, frontend, and product engineering roles
+        </div>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">View work</a>
           <a class="button button-secondary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
@@ -41,8 +46,8 @@
       <aside class="hero-panel" aria-label="Profile summary">
         <img src="/src/assets/profile1.jpeg" alt="Ayomide Elijah Oduba" />
         <div class="panel-card">
-          <p class="panel-label">Currently building</p>
-          <p>Nonprofit platforms, AI job tooling, internal dashboards, and automation-heavy products.</p>
+          <p class="panel-label">Current focus</p>
+          <p>Shipping MVPs, internal dashboards, and AI-enabled workflows with enough structure to survive real users.</p>
         </div>
       </aside>
     </section>
@@ -60,8 +65,8 @@
 
     <section id="work" class="section-shell">
       <div class="section-heading">
-        <p class="eyebrow">Selected work</p>
-        <h2>Recent projects with real product shape.</h2>
+        <p class="eyebrow">Product work</p>
+        <h2>Three projects that show the kind of problems I like solving.</h2>
       </div>
 
       <div class="project-grid">
@@ -76,7 +81,7 @@
             </div>
             <h3>ProjectGenova</h3>
             <p>
-              A full website for a nonprofit initiative helping young people build pathways into technology through free STEM programs, mentorship, events, community pages, forms, newsletter flows, and SEO-focused content.
+              Built a nonprofit web platform for programs, events, career pages, donation flows, newsletter capture, and community storytelling. The core challenge was making an early-stage organization look credible while keeping content easy to expand.
             </p>
             <div class="tag-row">
               <span>Next.js</span>
@@ -99,7 +104,7 @@
             </div>
             <h3>CareerPilot</h3>
             <p>
-              A full-stack job application assistant with a Next.js frontend, Flask backend, resume tailoring, provider auth capture, uploaded files, and deployment paths for Vercel and Render.
+              Built an AI-assisted job application tool that tailors resumes to job descriptions and separates fast frontend iteration from backend automation. The interesting work was deciding where product speed mattered more than perfect platform depth.
             </p>
             <div class="tag-row">
               <span>Next.js</span>
@@ -122,7 +127,7 @@
             </div>
             <h3>Castle and Care Heritage Initiative</h3>
             <p>
-              A responsive public website for a community organization, designed around clear storytelling, accessible navigation, program visibility, and calls to action for visitors and supporters.
+              Built a community organization site around trust, donation intent, program visibility, and accessible storytelling. The work balanced brand polish with the practical needs of a small nonprofit team.
             </p>
             <div class="tag-row">
               <span>React</span>
@@ -134,25 +139,63 @@
           </div>
         </a>
 
-        <a class="project-card" href="https://twitter-sprint.vercel.app" target="_blank" rel="noreferrer" aria-label="Open Twitter Sprint">
+      </div>
+    </section>
+
+    <section id="case-study" class="section-shell case-study-section">
+      <div class="section-heading">
+        <p class="eyebrow">Case study</p>
+        <h2>CareerPilot: turning job-search repetition into a product workflow.</h2>
+      </div>
+      <div class="case-study-layout">
+        <div class="case-study-lede">
+          <img src="/src/assets/careerpilot.gif" alt="CareerPilot animated preview" />
+          <p>
+            CareerPilot started from a simple pain point: tailoring applications is repetitive, but fully automating the process too early creates trust and quality problems. I treated the first version as a control center, not a magic button.
+          </p>
+        </div>
+        <div class="case-study-points">
+          <article>
+            <span>Problem</span>
+            <p>Job seekers need faster resume tailoring without losing control over what gets sent to employers.</p>
+          </article>
+          <article>
+            <span>Constraints</span>
+            <p>The MVP needed to support uploads, provider sessions, and AI tailoring while staying deployable across separate frontend and backend hosts.</p>
+          </article>
+          <article>
+            <span>Decision</span>
+            <p>I split the product into a Next.js interface and Flask automation backend so UI changes could move quickly while heavier browser/session work stayed isolated.</p>
+          </article>
+          <article>
+            <span>Tradeoff</span>
+            <p>That split adds deployment coordination, but it keeps long-running automation and credential-sensitive flows away from the client app.</p>
+          </article>
+          <article>
+            <span>What I would revisit</span>
+            <p>If usage grew, I would add job-level evaluation metrics, queueing for slow tailoring tasks, and a clearer review layer before any application action.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell more-work-section">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">More work</p>
+        <h2>Client work and experiments.</h2>
+      </div>
+      <div class="project-grid compact-grid">
+        <a class="project-card project-card-compact" href="https://twitter-sprint.vercel.app" target="_blank" rel="noreferrer" aria-label="Open Twitter Sprint">
           <span class="project-image">
             <img src="/src/assets/twitter-sprint.gif" alt="Twitter Sprint dashboard animated preview" />
           </span>
           <div class="project-content">
             <div class="project-topline">
+              <span>Experiment</span>
               <span>Growth dashboard</span>
-              <span>2026</span>
             </div>
             <h3>Twitter Sprint</h3>
-            <p>
-              A standalone 30-day growth sprint dashboard with role-based access, post queues, manual publishing, cron autopost, metrics sync, alerts, and settings management.
-            </p>
-            <div class="tag-row">
-              <span>JavaScript</span>
-              <span>Node.js</span>
-              <span>APIs</span>
-              <span>Cron</span>
-            </div>
+            <p>A dashboard experiment for role-based content queues, manual publishing, cron autopost, metrics sync, alerts, and settings management.</p>
             <span class="card-cta">Open project</span>
           </div>
         </a>
@@ -192,11 +235,11 @@
     <section id="about" class="section-shell about-section">
       <div class="section-heading">
         <p class="eyebrow">About</p>
-        <h2>I like systems that feel simple because the hard parts were handled carefully.</h2>
+        <h2>I care about useful software that holds up after the first demo.</h2>
       </div>
       <div class="about-grid">
         <p>
-          I work across frontend, backend, and automation, with a bias toward products that are useful quickly and maintainable after the first launch. Recent work includes nonprofit platforms, AI-assisted job tooling, dashboards, form workflows, and deployment-ready web apps.
+          I work best on products where the shape is still being discovered: small-team tools, nonprofit platforms, AI-assisted workflows, and dashboards that need to become reliable enough for real operations.
         </p>
         <div class="detail-list">
           <div>
@@ -217,8 +260,8 @@
 
     <section id="contact" class="section-shell contact-section">
       <p class="eyebrow">Contact</p>
-      <h2>Have something worth building?</h2>
-      <p>Send me a note and let’s figure out the cleanest path from idea to shipped product.</p>
+      <h2>Open to full-stack, frontend, and product engineering roles.</h2>
+      <p>I am especially interested in teams building internal tools, AI-enabled workflows, nonprofit technology, or MVPs that need a thoughtful path to production.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="mailto:ayomideoduba@gmail.com">Email me</a>
         <a class="button button-secondary" href="https://github.com/WhereIsLijah" target="_blank" rel="noreferrer">GitHub</a>
