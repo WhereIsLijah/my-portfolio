@@ -1,237 +1,245 @@
 <!DOCTYPE html>
-<html lang="en" class="sr">
-
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-  <title>Ayomide Oduba | Software Developer</title>
-  <meta name="keywords" content="Ayomide Oduba, Software Engineer, Software Developer, front-end Developer, back-end Developer" />
-  <meta name="description" content="Ayomide Oduba | Full Stack Developer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Ayomide Oduba | Software Engineer</title>
+  <meta name="keywords" content="Ayomide Oduba, Software Engineer, Full Stack Developer, React, Next.js, Python" />
+  <meta name="description" content="Ayomide Oduba is a full stack software engineer building useful web products, automation tools, and nonprofit technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.scss" />
-  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
-
 <body>
-  <div id="top"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ayomide Oduba home">
+      <span>AO</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <section id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title load-hidden">
-        Hi, I am <span style="color: white;">Ayomide Elijah Oduba</span>
-        <br />
-        Your next Software Engineer <span>😉</span>
-      </h1>
-      <p class="hero-cta load-hidden">
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
-      </p>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title load-hidden">About me</h2>
-      <div class="row about-wrapper">
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="400px" src="/src/assets/profile1.jpeg" />
-          </div>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Full stack software engineer</p>
+        <h1>Building polished products with practical engineering underneath.</h1>
+        <p class="hero-lede">
+          I am Ayomide Elijah Oduba, a software engineer focused on shipping clear, useful web products across frontend, backend, automation, and AI-assisted workflows.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">View work</a>
+          <a class="button button-secondary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__info load-hidden">
-            <p class="about-wrapper__info-text">
-              With over 5 years of experience as a software engineer, I’m a naturally curious, slightly obsessive tinkerer who just has to know how things work—and then make them work better (or at least funnier).
-              I've spent years sharpening my problem-solving skills and am always on the hunt for the next big challenge.
-              If there's a project out there that needs a sprinkle of creativity and a dash of tenacity, I’m in.
+      </div>
+      <aside class="hero-panel" aria-label="Profile summary">
+        <img src="/src/assets/profile1.jpeg" alt="Ayomide Elijah Oduba" />
+        <div class="panel-card">
+          <p class="panel-label">Currently building</p>
+          <p>Nonprofit platforms, AI job tooling, internal dashboards, and automation-heavy products.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="proof-strip" aria-label="Technical strengths">
+      <span>Next.js</span>
+      <span>React</span>
+      <span>TypeScript</span>
+      <span>Python</span>
+      <span>Flask</span>
+      <span>Supabase</span>
+      <span>Node.js</span>
+      <span>Automation</span>
+    </section>
+
+    <section id="work" class="section-shell">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Recent projects with real product shape.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-card-featured">
+          <a class="project-image" href="https://pgnva.com" target="_blank" rel="noreferrer">
+            <img src="/src/assets/projectgenova.png" alt="ProjectGenova website screenshot" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Nonprofit platform</span>
+              <span>2026</span>
+            </div>
+            <h3>ProjectGenova</h3>
+            <p>
+              A full website for a nonprofit initiative helping young people build pathways into technology through free STEM programs, mentorship, events, community pages, forms, newsletter flows, and SEO-focused content.
             </p>
-            <p class="about-wrapper__info-text">
-              On the tech side, I wield a mean keyboard with Python, JavaScript, and Java, and I’m fluent in frameworks like Angular, Django, Express, Node.js, and React.js.
-              My goal? To craft software so efficient and user-friendly, it practically gives itself a high-five.
+            <div class="tag-row">
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Supabase</span>
+              <span>Resend</span>
+            </div>
+            <div class="link-row">
+              <a href="https://pgnva.com" target="_blank" rel="noreferrer">Live site</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image" href="https://career-pilot-staging.vercel.app" target="_blank" rel="noreferrer">
+            <img src="/src/assets/careerpilot.png" alt="CareerPilot app screenshot" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>AI job assistant</span>
+              <span>2026</span>
+            </div>
+            <h3>CareerPilot</h3>
+            <p>
+              A full-stack job application assistant with a Next.js frontend, Flask backend, resume tailoring, provider auth capture, uploaded files, and deployment paths for Vercel and Render.
             </p>
-            <p class="about-wrapper__info-text">
-              And when I’m not coding, you can find me chasing a soccer ball <span>⚽</span> or crushing it in a video game <span>🎮</span> (by “crushing it,” I mean occasionally losing but with incredible style).
+            <div class="tag-row">
+              <span>Next.js</span>
+              <span>Python</span>
+              <span>Flask</span>
+              <span>AI</span>
+            </div>
+            <div class="link-row">
+              <a href="https://career-pilot-staging.vercel.app" target="_blank" rel="noreferrer">Live site</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image" href="https://castle-and-care-ui.vercel.app" target="_blank" rel="noreferrer">
+            <img src="/src/assets/castle-and-care.png" alt="Castle and Care website screenshot" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Community website</span>
+              <span>2026</span>
+            </div>
+            <h3>Castle and Care Heritage Initiative</h3>
+            <p>
+              A responsive public website for a community organization, designed around clear storytelling, accessible navigation, program visibility, and calls to action for visitors and supporters.
             </p>
-            <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">View Resume</a>
-            </span>
+            <div class="tag-row">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>CSS</span>
+              <span>Vercel</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image" href="https://twitter-sprint.vercel.app" target="_blank" rel="noreferrer">
+            <img src="/src/assets/twitter-sprint.png" alt="Twitter Sprint dashboard screenshot" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Growth dashboard</span>
+              <span>2026</span>
+            </div>
+            <h3>Twitter Sprint</h3>
+            <p>
+              A standalone 30-day growth sprint dashboard with role-based access, post queues, manual publishing, cron autopost, metrics sync, alerts, and settings management.
+            </p>
+            <div class="tag-row">
+              <span>JavaScript</span>
+              <span>Node.js</span>
+              <span>APIs</span>
+              <span>Cron</span>
+            </div>
+            <div class="link-row">
+              <a href="https://twitter-sprint.vercel.app" target="_blank" rel="noreferrer">Live site</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-compact">
+          <a class="project-image" href="https://lolaygroup.ca" target="_blank" rel="noreferrer">
+            <img src="/src/assets/Homepage.gif" alt="Lolay website preview" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Client website</span>
+              <span>Squarespace</span>
+            </div>
+            <h3>Lolay Group</h3>
+            <p>A polished architecture and engineering website focused on services, compliance, sustainability, and clear client-facing presentation.</p>
+            <div class="link-row">
+              <a href="https://lolaygroup.ca" target="_blank" rel="noreferrer">Live site</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-compact">
+          <a class="project-image" href="https://apppage.net/preview/net.heiway.outsystems.ReturnManagement" target="_blank" rel="noreferrer">
+            <img src="/src/assets/epod.jpg" alt="Electronic Proof Of Delivery app screenshot" />
+          </a>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Mobile operations</span>
+              <span>React Native</span>
+            </div>
+            <h3>Electronic Proof Of Delivery</h3>
+            <p>A mobile workflow for real-time client information, credit processing, delivery tracking, and operational transparency.</p>
+            <div class="link-row">
+              <a href="https://apppage.net/preview/net.heiway.outsystems.ReturnManagement" target="_blank" rel="noreferrer">Live app</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell about-section">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>I like systems that feel simple because the hard parts were handled carefully.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I work across frontend, backend, and automation, with a bias toward products that are useful quickly and maintainable after the first launch. Recent work includes nonprofit platforms, AI-assisted job tooling, dashboards, form workflows, and deployment-ready web apps.
+        </p>
+        <div class="detail-list">
+          <div>
+            <strong>Frontend</strong>
+            <span>React, Next.js, TypeScript, responsive interfaces, product UX.</span>
+          </div>
+          <div>
+            <strong>Backend</strong>
+            <span>Python, Flask, Node.js, APIs, data workflows, auth-aware systems.</span>
+          </div>
+          <div>
+            <strong>Delivery</strong>
+            <span>Vercel, Netlify, Render, Supabase, email integrations, automation.</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
-
-        <!-- Project 1 -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">ProjectGenova</h3>
-              <div>
-                <p class="mb-4">
-                  A full website for a nonprofit initiative helping young people build pathways into technology through free STEM programs, mentorship, events, and community-based learning. The site includes program pages, careers, blog content, contact flows, donation pages, newsletter signup, and SEO-focused metadata.
-                </p>
-              </div>
-              <p>Technologies: <b>Next.js</b>, <b>TypeScript</b>, <b>Tailwind CSS</b>, <b>Supabase</b>, <b>Resend</b></p>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn cta-btn--hero"
-                href="https://pgnva.com"
-                style="display: inline-block; margin-top: 10px; text-align: left;"
-              >
-                See Live
-              </a>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn text-color-main"
-                href="https://github.com/WhereIsLijah/pgnva"
-                style="display: inline-block; margin-top: 10px; text-align: left;"
-              >
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://pgnva.com" target="_blank">
-                <div class="thumbnail rounded js-tilt">
-                  <img alt="ProjectGenova website screenshot" class="img-fluid" src="/src/assets/projectgenova.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Castle and Care Heritage Initiative</h3>
-              <div>
-                <p class="mb-4">
-                  A public-facing website for Castle and Care Heritage Initiative, built to present the organization's mission, programs, community work, and calls to action in a polished and accessible way. The experience focuses on clear storytelling, responsive design, and easy navigation for visitors, partners, and supporters.
-                </p>
-              </div>
-              <p>Technologies: <b>React</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Vercel</b></p>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://castle-and-care-ui.vercel.app">See Live</a>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn text-color-main"
-                href="https://github.com/WhereIsLijah/castle-and-care-ui"
-                style="display: inline-block; margin-top: 10px; text-align: left;"
-              >
-                Source Code
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://castle-and-care-ui.vercel.app" target="_blank">
-                <div class="thumbnail rounded js-tilt">
-                  <img alt="Castle and Care website screenshot" class="img-fluid" src="/src/assets/castle-and-care.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Architectural Website for Lolay</h3>
-              <div>
-                <p class="mb-4">
-                  A website built with Squarespace for a London-based architect. It showcases multi-disciplinary engineering services, including Civil, Structural, and Land Development Engineering, Construction Management, and Permitting. The focus is on compliance, sustainability, and cost-effective design solutions for civil and infrastructure projects.
-                </p>
-              </div>
-              <p>Technologies: <b>Squarespace</b></p>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn cta-btn--hero"
-                href="https://lolaygroup.ca"
-                style="display: inline-block; margin-top: 10px; text-align: left;"
-              >
-                See Live
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://lolaygroup.ca" target="_blank">
-                <div class="thumbnail rounded js-tilt">
-                  <img alt="Lolay website screenshot" class="img-fluid" src="/src/assets/Homepage.gif" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Electronic Proof Of Delivery</h3>
-              <div>
-                <p class="mb-4">
-                  A mobile application designed to streamline credit processing for clients in a seamless and efficient manner. Built with MySQL for database management,
-                  the app stores, processes, and manages client information in real-time. React Native was used for a smooth cross-platform experience, while MySQL
-                  ensures reliable data storage and accessibility. The solution helps users track credits and transactions, ensuring transparency and enhancing client satisfaction.
-                </p>
-                <p>Technologies:
-                  <i class="fa fa-database" title="MySQL"></i> <b>MySQL</b>,
-                  <i class="fa fa-mobile" title="React Native"></i> <b>React Native</b>
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://apppage.net/preview/net.heiway.outsystems.ReturnManagement">See Live</a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://apppage.net/preview/net.heiway.outsystems.ReturnManagement" target="_blank">
-                <div class="thumbnail rounded js-tilt">
-                  <img alt="Electronic Proof Of Delivery app screenshot" class="img-fluid" src="/src/assets/epod.jpg" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
+    <section id="contact" class="section-shell contact-section">
+      <p class="eyebrow">Contact</p>
+      <h2>Have something worth building?</h2>
+      <p>Send me a note and let’s figure out the cleanest path from idea to shipped product.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="mailto:ayomideoduba@gmail.com">Email me</a>
+        <a class="button button-secondary" href="https://github.com/WhereIsLijah" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button button-secondary" href="https://www.linkedin.com/in/ayduba/" target="_blank" rel="noreferrer">LinkedIn</a>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper load-hidden">
-        <p class="contact-wrapper__text">Don't wait, Let's build something <span>💪</span></p>
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:ayomideoduba@gmail.com">Send an Email</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="footer navbar-static-bottom">
-    <div class="container">
-      <a rel="noreferrer" href="#top" class="back-to-top"><i class="fa fa-angle-up fa-2x"></i></a>
-      <div class="social-links">
-        <a rel="noreferrer" href="https://twitter.com/Twitter" target="_self"><i class="fa fa-twitter"></i></a>
-        <a rel="noreferrer" href="https://www.linkedin.com/in/ayduba/" target="_self"><i class="fa fa-linkedin"></i></a>
-        <a rel="noreferrer" href="https://github.com/WhereIsLijah" target="_self"><i class="fa fa-github"></i></a>
-      </div>
-    </div>
+  <footer class="site-footer">
+    <p>Ayomide Elijah Oduba</p>
+    <a href="#top">Back to top</a>
   </footer>
 
-  <script defer type="module" src="index.js"></script>
 </body>
 </html>
