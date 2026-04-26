@@ -313,6 +313,17 @@ h3 {
   grid-template-columns: minmax(0, 1.15fr) minmax(340px, .85fr);
 }
 
+.project-card-static {
+  cursor: default;
+}
+
+.project-card-static:hover,
+.project-card-static:focus-visible {
+  border-color: var(--line);
+  box-shadow: 0 18px 45px rgba(39, 35, 27, .08);
+  transform: none;
+}
+
 .project-image {
   overflow: hidden;
   display: block;
@@ -329,6 +340,11 @@ h3 {
 
 .project-card:hover .project-image img {
   transform: scale(1.025);
+}
+
+.project-card-static:hover .project-image img,
+.project-card-static:focus-visible .project-image img {
+  transform: none;
 }
 
 .project-content {
@@ -373,6 +389,11 @@ h3 {
 .project-card:hover .card-cta,
 .project-card:focus-visible .card-cta {
   color: var(--coral);
+}
+
+.project-card-static:hover .card-cta,
+.project-card-static:focus-visible .card-cta {
+  color: var(--green);
 }
 
 .project-card-compact .project-image img {
