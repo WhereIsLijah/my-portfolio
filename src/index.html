@@ -20,7 +20,7 @@
     </a>
     <nav class="nav-links" aria-label="Primary navigation">
       <a href="#work">Work</a>
-      <a href="#case-study">Case study</a>
+      <a href="#community">Community</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -29,14 +29,14 @@
   <main id="top">
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow">Full stack product engineer</p>
-        <h1>I build practical web tools for teams that need to move from idea to shipped product.</h1>
+        <p class="eyebrow">Software engineer, builder, community person</p>
+        <h1>I build useful internet things and I like them to feel human.</h1>
         <p class="hero-lede">
-          I am Ayomide Elijah Oduba. I work across Next.js, React, Python, and automation to turn messy workflows into usable internal tools, nonprofit platforms, and AI-assisted products.
+          I am Ayomide Elijah Oduba. I work across Next.js, React, Python, and automation to turn messy ideas into products people actually use, from nonprofit platforms and internal tools to AI helpers and mobile-first experiments.
         </p>
         <div class="status-pill" aria-label="Current availability">
           <span></span>
-          Open to full-stack, frontend, and product engineering roles
+          Open to full-stack roles, good teams, and interesting problems
         </div>
         <div class="hero-actions">
           <a class="button button-primary" href="#work">View work</a>
@@ -46,8 +46,13 @@
       <aside class="hero-panel" aria-label="Profile summary">
         <img src="/src/assets/profile1.jpeg" alt="Ayomide Elijah Oduba" />
         <div class="panel-card">
-          <p class="panel-label">Current focus</p>
-          <p>Shipping MVPs, internal dashboards, and AI-enabled workflows with enough structure to survive real users.</p>
+          <p class="panel-label">Right now</p>
+          <p>I am happiest building products, mentoring, and using code for community-facing work, not just dashboards in a vacuum.</p>
+          <div class="panel-list">
+            <span>Product builds</span>
+            <span>Community service</span>
+            <span>Black Boys Code</span>
+          </div>
         </div>
       </aside>
     </section>
@@ -65,8 +70,8 @@
 
     <section id="work" class="section-shell">
       <div class="section-heading">
-        <p class="eyebrow">Product work</p>
-        <h2>Three projects that show the kind of problems I like solving.</h2>
+        <p class="eyebrow">Selected work</p>
+        <h2>Things I have built lately, from give-back work to product experiments.</h2>
       </div>
 
       <div class="project-grid">
@@ -76,12 +81,12 @@
           </span>
           <div class="project-content">
             <div class="project-topline">
-              <span>Nonprofit platform</span>
+              <span>Give-back work</span>
               <span>2026</span>
             </div>
             <h3>ProjectGenova</h3>
             <p>
-              Built a nonprofit web platform for programs, events, career pages, donation flows, newsletter capture, and community storytelling. The core challenge was making an early-stage organization look credible while keeping content easy to expand.
+              One of the ways I give back: a nonprofit platform for programs, events, careers, donations, and community storytelling. The challenge was building trust and momentum for an early-stage organization without making the site hard to manage.
             </p>
             <div class="tag-row">
               <span>Next.js</span>
@@ -116,6 +121,29 @@
           </div>
         </a>
 
+        <a class="project-card" href="https://www.findatfred.com/home" target="_blank" rel="noreferrer" aria-label="Open Fred">
+          <span class="project-image">
+            <img src="/src/assets/fred.png" alt="Fred marketplace preview" />
+          </span>
+          <div class="project-content">
+            <div class="project-topline">
+              <span>Marketplace product</span>
+              <span>Web + mobile</span>
+            </div>
+            <h3>Fred</h3>
+            <p>
+              A marketplace product built around helping farmers, distributors, and buyers connect more easily. I like this one because it lives closer to real-world movement: people, supply, transactions, and opportunity.
+            </p>
+            <div class="tag-row">
+              <span>Next.js</span>
+              <span>Marketplace</span>
+              <span>Mobile app</span>
+              <span>E-commerce</span>
+            </div>
+            <span class="card-cta">Open project</span>
+          </div>
+        </a>
+
         <article class="project-card project-card-static" aria-label="Castle and Care Heritage Initiative">
           <span class="project-image">
             <img src="/src/assets/castle-and-care.gif" alt="Castle and Care website animated preview" />
@@ -142,38 +170,34 @@
       </div>
     </section>
 
-    <section id="case-study" class="section-shell case-study-section">
+    <section id="community" class="section-shell case-study-section">
       <div class="section-heading">
-        <p class="eyebrow">Case study</p>
-        <h2>CareerPilot: turning job-search repetition into a product workflow.</h2>
+        <p class="eyebrow">Beyond work</p>
+        <h2>Code is also how I show up for community.</h2>
       </div>
       <div class="case-study-layout">
         <div class="case-study-lede">
-          <img src="/src/assets/careerpilot.gif" alt="CareerPilot animated preview" />
+          <img src="/src/assets/projectgenova.gif" alt="ProjectGenova animated preview" />
           <p>
-            CareerPilot started from a simple pain point: tailoring applications is repetitive, but fully automating the process too early creates trust and quality problems. I treated the first version as a control center, not a magic button.
+            I do not want my portfolio to read like I only care about tickets and ship dates. Some of the work I am proudest of lives where software meets access, belonging, and people trying to build better futures.
           </p>
         </div>
         <div class="case-study-points">
           <article>
-            <span>Problem</span>
-            <p>Job seekers need faster resume tailoring without losing control over what gets sent to employers.</p>
+            <span>Black Boys Code</span>
+            <p>I care about spaces that make tech feel possible, visible, and welcoming for Black youth. That kind of representation work matters to me as much as shipping features.</p>
           </article>
           <article>
-            <span>Constraints</span>
-            <p>The MVP needed to support uploads, provider sessions, and AI tailoring while staying deployable across separate frontend and backend hosts.</p>
+            <span>ProjectGenova</span>
+            <p>ProjectGenova is part of how I give back: using product thinking, design, and engineering to help a community-facing organization present itself with clarity and trust.</p>
           </article>
           <article>
-            <span>Decision</span>
-            <p>I split the product into a Next.js interface and Flask automation backend so UI changes could move quickly while heavier browser/session work stayed isolated.</p>
+            <span>Community service</span>
+            <p>I like building things that do something in the real world, whether that is helping people find opportunities, giving a nonprofit a stronger digital home, or making a tool easier for a small team to actually use.</p>
           </article>
           <article>
-            <span>Tradeoff</span>
-            <p>That split adds deployment coordination, but it keeps long-running automation and credential-sensitive flows away from the client app.</p>
-          </article>
-          <article>
-            <span>What I would revisit</span>
-            <p>If usage grew, I would add job-level evaluation metrics, queueing for slow tailoring tasks, and a clearer review layer before any application action.</p>
+            <span>What that means in practice</span>
+            <p>I am not only interested in polished interfaces. I am interested in software that creates access, momentum, and a sense that someone thoughtful was behind the experience.</p>
           </article>
         </div>
       </div>
@@ -181,8 +205,8 @@
 
     <section class="section-shell more-work-section">
       <div class="section-heading compact-heading">
-        <p class="eyebrow">More work</p>
-        <h2>Client work and experiments.</h2>
+        <p class="eyebrow">More builds</p>
+        <h2>Other things I have made along the way.</h2>
       </div>
       <div class="project-grid compact-grid">
         <a class="project-card project-card-compact" href="https://twitter-sprint.vercel.app" target="_blank" rel="noreferrer" aria-label="Open Twitter Sprint">
@@ -235,24 +259,24 @@
     <section id="about" class="section-shell about-section">
       <div class="section-heading">
         <p class="eyebrow">About</p>
-        <h2>I care about useful software that holds up after the first demo.</h2>
+        <h2>I like software that feels clear, useful, and a little bit alive.</h2>
       </div>
       <div class="about-grid">
         <p>
-          I work best on products where the shape is still being discovered: small-team tools, nonprofit platforms, AI-assisted workflows, and dashboards that need to become reliable enough for real operations.
+          I work best on products where the shape is still being discovered: small-team tools, nonprofit platforms, marketplaces, AI-assisted workflows, and anything that needs equal parts taste and engineering. I like figuring out the structure, but I also like making the final thing feel warm enough that people actually enjoy using it.
         </p>
         <div class="detail-list">
           <div>
             <strong>Frontend</strong>
-            <span>React, Next.js, TypeScript, responsive interfaces, product UX.</span>
+            <span>React, Next.js, TypeScript, responsive interfaces, product UX, and interactions that do not feel stiff.</span>
           </div>
           <div>
             <strong>Backend</strong>
-            <span>Python, Flask, Node.js, APIs, data workflows, auth-aware systems.</span>
+            <span>Python, Flask, Node.js, APIs, data workflows, auth-aware systems, and useful automation.</span>
           </div>
           <div>
-            <strong>Delivery</strong>
-            <span>Vercel, Netlify, Render, Supabase, email integrations, automation.</span>
+            <strong>Energy</strong>
+            <span>Community-minded builds, MVPs with personality, nonprofit work, mentoring, and products that solve an actual problem.</span>
           </div>
         </div>
       </div>
@@ -260,8 +284,8 @@
 
     <section id="contact" class="section-shell contact-section">
       <p class="eyebrow">Contact</p>
-      <h2>Open to full-stack, frontend, and product engineering roles.</h2>
-      <p>I am especially interested in teams building internal tools, AI-enabled workflows, nonprofit technology, or MVPs that need a thoughtful path to production.</p>
+      <h2>If you are building something useful, thoughtful, or a little ambitious, we will probably get along.</h2>
+      <p>I am especially interested in product engineering, nonprofit tech, community-minded software, AI-enabled workflows, and teams that care about both execution and people.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="mailto:ayomideoduba@gmail.com">Email me</a>
         <a class="button button-secondary" href="https://github.com/WhereIsLijah" target="_blank" rel="noreferrer">GitHub</a>
